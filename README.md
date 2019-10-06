@@ -1,1 +1,3 @@
-# tic-tac-toe
+---
+permalink: /index.html
+---
