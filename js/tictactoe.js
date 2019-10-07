@@ -273,7 +273,7 @@ function winner(winDetected, winCon) {
 		var activePlayer = document.getElementById('showPlayer').innerHTML;
 		var txt2 = "That's three in a row, " + activePlayer + " wins!";
 		writeMsg(txt2);
-		txt2 = txt2 + "<br><br> We gottem";
+		txt2 = txt2 + "<br> We gottem";
 		setTimeout(function () { writeMsg(txt2); }, 7500);
 		var btn = document.getElementById('btnStart');
 		startEnabled(btn); // enable the start button since the game is now stopped
